@@ -1,0 +1,43 @@
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.nav-bar > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.container-home{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
